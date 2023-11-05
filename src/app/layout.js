@@ -9,7 +9,10 @@ function RootLayout({ children }) {
     <html lang='en'>
       <body>
         {children}
-        <footer>{`Page rendered on ${timestamp}`}</footer>
+        <footer>
+          <p>{`Page rendered on ${timestamp}`}</p>
+          <p>Copyright Bohdan Inc.</p>
+        </footer>
       </body>
     </html>
   );
